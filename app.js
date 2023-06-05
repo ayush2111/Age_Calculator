@@ -22,11 +22,6 @@ datePicker.addEventListener('change', () => {
     let today = new Date()
     let birthDates = new Date(datePicker.value)
 
-    // let todayTime = today.getTime()
-    // let bithTime =  birthDates.getTime()
-
-    // let result = todayTime - bithTime
-    // console.log(result);
     
     let birthDate, birthMonth, birthYear
 
